@@ -3,7 +3,7 @@ import {BookContext} from '../contexts/BookContext';
 import styled from 'styled-components';
 
 const NavbarStyled = styled.div`
-    background: red;
+    background: #6d3d6d;
     text-align: center; 
     color: white; 
     padding: 5px 10px; 
@@ -16,7 +16,7 @@ const Navbar = ()=> {
 
     return (
         <NavbarStyled>
-            <h1 style={{backgroundColor:'green'}}> Book List </h1>
+            <h1> Book List </h1>
              <p>You have {books.length} books to read. </p>
         </NavbarStyled>
         
